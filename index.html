@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="grade-container">
+    <div class="grading">
+      <p>Name:</p><input type="text" name="" id="" class="name">
+      <p>Mathematics:</p><input type="text" name="" id="maths" onkeyup="calc()">
+      <p>English:</p><input type="text" name="" id="english" onkeyup="calc()">
+      <p>Physics:</p> <input type="text" name="" id="physics" onkeyup="calc()">
+      <p>Chemistry:</p><input type="text" name="" id="chemistry" onkeyup="calc()">
+      <p>Biology:</p><input type="text" name="" id="biology" onkeyup="calc()">
+      <p>Igbo:</p><input type="text" name="" id="igbo" onkeyup="calc()">
+      <p>Further Mathematics:</p><input type="text" name="" id="furtherMath" onkeyup="calc()">
+      <p>Geography:</p><input type="text" name="" id="geography" onkeyup="calc()">
+      <p>Economics:</p><input type="text" name="" id="economics" onkeyup="calc()">
+      <div class="sum">
+        <p>TOTAL:<span id="total"></span></p>
+        <p>AVERAGE:<span id="average"></span></p>
+        <P>GRADE:<span id="grade"></span></P>
+      </div>
+      <button class="submit" onclick="submit()">Submit</button>
+    </div>
+    <div class="grade-display">
+      <h1>Student's Result Sheet</h1>
+      <ul class="grade-list">
+        <li>S/N</li>
+        <li>NAME</li>
+        <li>MATHS</li>
+        <li>ENG</li>
+        <li>PHY</li>
+        <li>CHEM</li>
+        <li>BIO</li>
+        <li>IGBO</li>
+        <li>F.M</li>
+        <li>GEO</li>
+        <li>ECO</li>
+        <li>TOT</li>
+        <li>AVE</li>
+        <li>GRA</li>
+     </ul>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
